@@ -1,0 +1,31 @@
+name: skillforge_ai
+description: An AI-powered learning platform.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_dotenv: ^5.1.0
+  provider: ^6.1.2
+  http: any
+  shared_preferences: ^2.3.2
+  flutter_lints: ^4.0.0
+  permission_handler: ^10.2.0
+  path_provider: ^2.1.4
+  pdf: ^3.11.1
+  logging: ^1.2.0
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4  # Updated to a compatible version
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
